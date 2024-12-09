@@ -1,6 +1,34 @@
 <html>
 <head>
   <style>
+  button {
+  font-size: 16px;
+  padding: 1em 3.3em;
+  cursor: pointer;
+  transform: perspective(200px) rotateX(15deg);
+  color: white;
+  font-weight: 900;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(
+    0deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(70, 135, 252, 1) 100%
+  );
+  box-shadow: rgba(63, 94, 251, 0.2) 0px 40px 29px 0px;
+  will-change: transform;
+  transition: all 0.3s;
+  border-bottom: 2px solid rgba(70, 135, 252, 1);
+}
+
+button:hover {
+  transform: perspective(180px) rotateX(30deg) translateY(2px);
+}
+
+button:active {
+  transform: perspective(170px) rotateX(36deg) translateY(5px);
+}
+
      body{
          text-align: center;
          background-image: linear-gradient(rgb(255, 205, 0), rgb(0, 20, 137),rgb(255, 255, 255));
@@ -44,8 +72,15 @@
    <h3>Josip Broz (Serbo-Croatian Cyrillic: Јосип Броз, pronounced [jǒsip brôːz]; 7 May 1892 – 4 May 1980), commonly known as Tito (/ˈtiːtoʊ/; Тито, pronounced [tîto]), was a Yugoslav communist revolutionary and politician who served in various positions of national leadership from 1943 until his death in 1980.</h3>
    
    <h3>During World War II, he led the Yugoslav Partisans, often regarded as the most effective resistance movement in German-occupied Europe.[3][4] Following Yugoslavia's liberation in 1945, he served as its prime minister from 29 November 1945 to 29 June 1963 and president from 14 January 1953 until his death in 1980. The political ideology and policies promulgated by Tito are known as Titoism.</h3>
+
+  
+   <a href="https://en.wikipedia.org/wiki/Josip_Broz_Tito#:~:text=Josip%20Broz%20(Serbo%2DCroatian%20Cyrillic,until%20his%20death%20in%201980." target="_blank">
+  <button>Click me</button>
+</a><br><br>
+   <ins><iframe width="560" height="315" src="https://www.youtube.com/embed/Pmub1ClVcVE?si=BYo7tNr0k8IQ6TfC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ins><br>
    
-   <ins><iframe width="560" height="315" src="https://www.youtube.com/embed/Pmub1ClVcVE?si=BYo7tNr0k8IQ6TfC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></ins>
+
+
 
 </body>
 
